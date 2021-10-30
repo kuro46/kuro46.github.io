@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.shirokuro",
+    "module": "scriptblockimproved",
+    "version": "2.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "ob4vpnuu5fgcvlucf47vg7groy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0-SNAPSHOT.jar",
+          "url": "scriptblockimproved-2.0.0-SNAPSHOT.jar",
+          "size": 117061,
+          "sha512": "d0365788bf846b731dfe2bb58f6aff16ff5c62c999e2bbc6cd195ead36b3a6b4b82b7d93821a7871e43e27f2146b76c9ac4aa607e9ee310503a8291226c86de9",
+          "sha256": "a90f7b803e4d565ed2803ec1b559cb0e75dcdff38fa68717b6b6ef4af00c5253",
+          "sha1": "8275db9c0df4fee0aae2490880f8448f4ce7a490",
+          "md5": "188f609555309346eea1de49ae1ce29a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.kuro46",
+          "module": "CommandUtility",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.9"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "me.xdrop",
+          "module": "fuzzywuzzy",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0-SNAPSHOT.jar",
+          "url": "scriptblockimproved-2.0.0-SNAPSHOT.jar",
+          "size": 117061,
+          "sha512": "d0365788bf846b731dfe2bb58f6aff16ff5c62c999e2bbc6cd195ead36b3a6b4b82b7d93821a7871e43e27f2146b76c9ac4aa607e9ee310503a8291226c86de9",
+          "sha256": "a90f7b803e4d565ed2803ec1b559cb0e75dcdff38fa68717b6b6ef4af00c5253",
+          "sha1": "8275db9c0df4fee0aae2490880f8448f4ce7a490",
+          "md5": "188f609555309346eea1de49ae1ce29a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0-SNAPSHOT-javadoc.jar",
+          "url": "scriptblockimproved-2.0.0-SNAPSHOT-javadoc.jar",
+          "size": 590019,
+          "sha512": "4ff2440e99e7388b4b6a87e286bcf46f06f19122c4de8fdc0eddfdc6efa8d6a02344a2d6b1c6d9832f9bab142f651774adaff617dc88f4dfc827629d4a015828",
+          "sha256": "5d548709d4663480e328124045c05810412beee95a6203c79a3fae7468dbdc66",
+          "sha1": "b28f7bc43549db96e31e0aa101c0c31579042191",
+          "md5": "e2a32bc0d132c32b9f6c76f053f30d20"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0-SNAPSHOT-sources.jar",
+          "url": "scriptblockimproved-2.0.0-SNAPSHOT-sources.jar",
+          "size": 44797,
+          "sha512": "b5e4750ce79531d57facc60e5ef11106d7a2f1c8441cb9bc2ffd4be29e5e060b84ec4293f24cfd99107576707a3e99541dd547c1b10701c956e6ea119ff99fae",
+          "sha256": "9b2bef3358148cd9a6f5619b8b98dbaaedb5eea83a57196c56678fa08f75d9f3",
+          "sha1": "09b634b7c05059d762bc20535b0767a2ed5fdb66",
+          "md5": "f6a02bf1f5693e1f26d37bf7c8e85da2"
+        }
+      ]
+    }
+  ]
+}

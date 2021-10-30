@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.kuro46",
+    "module": "commandutility",
+    "version": "0.5.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "4gmed5lclvd4rnbiw3iyycvtmi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.5.0-SNAPSHOT.jar",
+          "url": "commandutility-0.5.0-SNAPSHOT.jar",
+          "size": 33761,
+          "sha512": "f5909b64bf293ef2600acdd2166820930c0068e1eabb92ee3458df7daca29e4894cbd8447c5f1208fbc485f5bc4884047843b675bcf7186364ecc622ce294c58",
+          "sha256": "45cdabf8a1f366aaf95f4d6748f0a617028aa6817035751307f0c9bc5a29283f",
+          "sha1": "f36a038f4b164c532b3680e226005b0b6c620b07",
+          "md5": "32e3456d3dfd6866741ad9f030199a0e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.5.0-SNAPSHOT.jar",
+          "url": "commandutility-0.5.0-SNAPSHOT.jar",
+          "size": 33761,
+          "sha512": "f5909b64bf293ef2600acdd2166820930c0068e1eabb92ee3458df7daca29e4894cbd8447c5f1208fbc485f5bc4884047843b675bcf7186364ecc622ce294c58",
+          "sha256": "45cdabf8a1f366aaf95f4d6748f0a617028aa6817035751307f0c9bc5a29283f",
+          "sha1": "f36a038f4b164c532b3680e226005b0b6c620b07",
+          "md5": "32e3456d3dfd6866741ad9f030199a0e"
+        }
+      ]
+    }
+  ]
+}

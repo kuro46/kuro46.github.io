@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.shirokuro",
+    "module": "commandutility",
+    "version": "0.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "ci3pvio2lna6feq3stzp6qjcuq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.6.0-SNAPSHOT.jar",
+          "url": "commandutility-0.6.0-SNAPSHOT.jar",
+          "size": 21797,
+          "sha512": "347f073080a22f27a7dd601fbbea09ba70ab3a17c0c901f5f4e15dbd987dc861ae6353dd185f7a59760fe04a06b42ef38b7e3ed00497f07da5c277aa6d7d0ee0",
+          "sha256": "e8483226489df09b41f72415d70e5e83a0a7fbb25e97a6d07d1ad624ebb50122",
+          "sha1": "49a7501bc20602134312f347c6ab9a08550765e6",
+          "md5": "77a8ba2620920f9e8b39fa21f9407408"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.6.0-SNAPSHOT.jar",
+          "url": "commandutility-0.6.0-SNAPSHOT.jar",
+          "size": 21797,
+          "sha512": "347f073080a22f27a7dd601fbbea09ba70ab3a17c0c901f5f4e15dbd987dc861ae6353dd185f7a59760fe04a06b42ef38b7e3ed00497f07da5c277aa6d7d0ee0",
+          "sha256": "e8483226489df09b41f72415d70e5e83a0a7fbb25e97a6d07d1ad624ebb50122",
+          "sha1": "49a7501bc20602134312f347c6ab9a08550765e6",
+          "md5": "77a8ba2620920f9e8b39fa21f9407408"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.6.0-SNAPSHOT-sources.jar",
+          "url": "commandutility-0.6.0-SNAPSHOT-sources.jar",
+          "size": 9562,
+          "sha512": "3596354de3f6ad8417baa057a5c03cca438051f526f491176c002daa9aac19b598f076e1d0c8e6a511adfc8ae5575412db927f285a45df5fdcb927d1b24723df",
+          "sha256": "4111ddae26b31488c02c162cc80ddcd1914d272940174176f2f12dca09f7c5fc",
+          "sha1": "b821f0008924b62d2b20f40c4c449efca1373e4e",
+          "md5": "ef7027db6e5751ee67a8a224c259e4e8"
+        }
+      ]
+    }
+  ]
+}

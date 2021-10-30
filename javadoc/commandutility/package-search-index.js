@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"dev.shirokuro.commandutility"},{"l":"dev.shirokuro.commandutility.annotation"},{"l":"dev.shirokuro.commandutility.platform"}]

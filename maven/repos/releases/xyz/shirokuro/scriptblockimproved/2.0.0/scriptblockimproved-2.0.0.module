@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "xyz.shirokuro",
+    "module": "scriptblockimproved",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.2",
+      "buildId": "ahtcpsqnrzeh3hhjcv36xqcpzu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0.jar",
+          "url": "scriptblockimproved-2.0.0.jar",
+          "size": 116749,
+          "sha512": "98bb28e8a76efa26658ddac23b4f964d6a33ccd68e992f646ddce06f0e6c73fdf0c23470cf389b32b2cb7ec0d50706a6e8c73260177d2808793126980dfa8aba",
+          "sha256": "528b87d45d84cc8a6104c14777d7759d31c07086ee4fadf94c4a4d99b69cee3e",
+          "sha1": "7eabbbb861640413a141f7bca9915eaa26451c1c",
+          "md5": "26a9e0c45163564c86b834a2fe4832d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.kuro46",
+          "module": "CommandUtility",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.9"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "me.xdrop",
+          "module": "fuzzywuzzy",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0.jar",
+          "url": "scriptblockimproved-2.0.0.jar",
+          "size": 116749,
+          "sha512": "98bb28e8a76efa26658ddac23b4f964d6a33ccd68e992f646ddce06f0e6c73fdf0c23470cf389b32b2cb7ec0d50706a6e8c73260177d2808793126980dfa8aba",
+          "sha256": "528b87d45d84cc8a6104c14777d7759d31c07086ee4fadf94c4a4d99b69cee3e",
+          "sha1": "7eabbbb861640413a141f7bca9915eaa26451c1c",
+          "md5": "26a9e0c45163564c86b834a2fe4832d8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0-javadoc.jar",
+          "url": "scriptblockimproved-2.0.0-javadoc.jar",
+          "size": 589357,
+          "sha512": "ae7d7b093e0d2977eb0ead3a80603ccf09c0b40410bc3ffe3670540d71151101aaa8477debdedeff428c69cafe9d0358cb6f0affb12cfb8ac118a475dbb27894",
+          "sha256": "3055a4d37c0a904e4fb88816d35034b4369d28d88a1b2271ea9d3408049875f3",
+          "sha1": "3540e636d23efde13294266f4b1822e34d75b7dd",
+          "md5": "fc98b0caa4e202695e1fddd5ad55bbab"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "scriptblockimproved-2.0.0-sources.jar",
+          "url": "scriptblockimproved-2.0.0-sources.jar",
+          "size": 44797,
+          "sha512": "e8cb74849564c7f65e567f11823a93d89d1ff9093fa3127c84f5155a65f70f1b1e618274f462c7ee204985abbc323060e82ca8704d20eab56306627309845d43",
+          "sha256": "298c2890c7a7c171279d148aab92545902ede1964bafd4f2569988d809912b1d",
+          "sha1": "d9d25dc01065f4033dfc742faf3a3573f884831f",
+          "md5": "b49c5c5c3a9d757a9ad4420232514e47"
+        }
+      ]
+    }
+  ]
+}

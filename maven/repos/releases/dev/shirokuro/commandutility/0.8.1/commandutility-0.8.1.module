@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.shirokuro",
+    "module": "commandutility",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4",
+      "buildId": "3fniifqhfzdpxa6h27yme46dgm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.8.1.jar",
+          "url": "commandutility-0.8.1.jar",
+          "size": 33591,
+          "sha512": "22e1b47955be824915f01afe011ebda0bb113ed51ec41780bf3674b2ae0fefe713bd7651bd666cc162687bc27c320b278b2013072a66e7dca6901072e494ae2f",
+          "sha256": "fd1711acae24ccb67e9e2e70b9b23dde9940887fd3235f404807d993b76f3a83",
+          "sha1": "0ecb643a1673eaf8e430be65abbcb450563ab40b",
+          "md5": "dc9fe4cb2f52264e4378301cb52636a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.8.1.jar",
+          "url": "commandutility-0.8.1.jar",
+          "size": 33591,
+          "sha512": "22e1b47955be824915f01afe011ebda0bb113ed51ec41780bf3674b2ae0fefe713bd7651bd666cc162687bc27c320b278b2013072a66e7dca6901072e494ae2f",
+          "sha256": "fd1711acae24ccb67e9e2e70b9b23dde9940887fd3235f404807d993b76f3a83",
+          "sha1": "0ecb643a1673eaf8e430be65abbcb450563ab40b",
+          "md5": "dc9fe4cb2f52264e4378301cb52636a9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "commandutility-0.8.1-sources.jar",
+          "url": "commandutility-0.8.1-sources.jar",
+          "size": 16348,
+          "sha512": "7e9e47eca554e889f15fe19b82ae6c08ff39d781f1e3f74db8f63078d2dec9dd90f3c0db5e11dfb534c809842f26c2197f4865fb00864ab3d34915662e3df91d",
+          "sha256": "04bc3fa96039f6736682104d5ce0053fd7c8da3cc654541cd6b77ae4b3ce39f6",
+          "sha1": "8d0e2a77bc3524683642db05db26963ae4ffc82b",
+          "md5": "21f8802607071e4e59569f09c5de6016"
+        }
+      ]
+    }
+  ]
+}
